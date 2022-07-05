@@ -1,9 +1,9 @@
-purview_account_name = "PurviewAccountName"
-client_id = "SERVICEPRINCIPALID"
-client_secret = "SERVICEPRINCIPALSECRET"
+purview_account_name = "PURVIEW_ACCOUNT_NAME"
+client_id = "SERVICE_PRINCIPAL_ID"
+client_secret = "SERVICE_PRINCIPAL_SECRET"
 resource = "https://purview.azure.net"
-tenant_id = "TENANTID"
-synapse_workspace_name = "SYNAPSEWORKSPACENAME"
+tenant_id = "TENANT_ID"
+synapse_workspace_name = "SYNAPSE_WORKSPACE_NAME"
 
 # oauth2 login
 url = "https://login.microsoftonline.com/" + tenant_id + "/oauth2/token"
